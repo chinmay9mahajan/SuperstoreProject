@@ -11,10 +11,10 @@ End-to-end sales analytics for the Superstore dataset, using SQL, Python, Excel,
 - **Documentation**: Data dictionary, business questions addressed.
 
 ## How to Use
-1. Place raw Kaggle CSV into `data/raw/superstore_sales.csv`.
-2. Run `python/data_cleaning.py` to produce cleaned data.
+1. Place raw Kaggle CSV into `data/SuperstoreData.csv`.
+2. Run `python/DataCleaning.ipynb` to produce cleaned data.
 3. Execute `.sql` scripts sequentially for database setup and analysis.
-4. Use `clean_sales.csv` as the data source in Excel and Tableau.
+4. Use `SuperstoreCleanData.csv` as the data source in Excel and Tableau.
 5. Update documentation and presentation with findings.
 
 ## Tools Used
