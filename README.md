@@ -31,7 +31,7 @@ Both connect to your cleaned sales data and/or SQL-prepared views for flexible, 
 3. Execute `.sql` scripts sequentially for database setup and analysis.
 4. Use `SuperstoreCleanData.csv` or the prepared data views as sources in Excel and Power BI.
 
-## Tools Used
-SQL (MySQL), Python (pandas, matplotlib, seaborn), Excel, Power BI.
+## Tools Used so far
+SQL (MySQL), Python (pandas), Power BI.
 
 ---
