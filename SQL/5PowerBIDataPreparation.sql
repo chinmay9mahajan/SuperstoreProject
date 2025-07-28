@@ -1,4 +1,4 @@
--- Preparing data for PowerBI
+-- Preparing Data for PowerBI
 
 -- Use your database
 USE superstore_db;
