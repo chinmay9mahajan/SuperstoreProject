@@ -10,6 +10,17 @@ End-to-end sales analytics for the Superstore dataset, using SQL, Python, Excel,
 - **Power BI**: Interactive dashboards for business users/executives.
 - **Documentation**: Data dictionary, business questions addressed.
 
+## Python
+
+The `/python` folder contains Jupyter notebooks for data processing:
+
+- **DataCleaning.ipynb**:
+  Performs comprehensive cleaning and preprocessing of the raw Superstore dataset. This includes handling missing values, standardizing column names, converting date fields, and generating a clean, analysis-ready dataset (`SuperstoreCleanData.csv`) used throughout the project.
+
+- **Customer Segmentation (RFM)**:
+  Implements Recency, Frequency, Monetary (RFM) analysis to score customers and assign segments such as "Champion," "Loyal," "At Risk," and "Regular." This segmentation drives targeted customer analytics and is integrated into Power BI dashboards.
+
+
 ## SQL Scripts
 
 The `/sql` folder contains:
