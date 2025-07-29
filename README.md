@@ -18,7 +18,7 @@ The `/python` folder contains Jupyter notebooks for data processing:
   Performs comprehensive cleaning and preprocessing of the raw Superstore dataset. This includes handling missing values, standardizing column names, converting date fields, and generating a clean, analysis-ready dataset (`SuperstoreCleanData.csv`) used throughout the project.
 
 - **Customer Segmentation (RFM)**:
-  Implements Recency, Frequency, Monetary (RFM) analysis to score customers and assign segments such as "Champion," "Loyal," "At Risk," and "Regular." This segmentation drives targeted customer analytics and is integrated into Power BI dashboards.
+  Implements Recency, Frequency, Monetary (RFM) analysis to score customers and assign segments such as "Champion," "Loyal," "At Risk," and "Regular." This segmentation drives targeted customer analytics and is integrated into Power BI dashboards. This dataset is stored as (`SuperstoreCleanDataWithSegment.csv`)
 
 
 ## SQL Scripts
