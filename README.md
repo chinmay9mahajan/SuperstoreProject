@@ -43,6 +43,7 @@ The `/sql` folder contains:
 
 - `ExecutiveDashboard.pbix`: High-level KPIs and summary visuals
 - `SalesPerformanceDeepDive.pbix`: Detailed sales trends by product, region, segment
+- `CustomerAnalysis.pbix`: Uses RFM segmentation to present a clear picture of customer behavior and value
 
 Both connect to your cleaned sales data and/or SQL-prepared views for flexible, business-ready analysis.
 
