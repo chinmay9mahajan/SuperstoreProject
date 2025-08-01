@@ -1,4 +1,4 @@
-Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment,Country,City,State,Postal Code,Region,Product ID,Category,Sub-Category,Product Name,Sales,Quantity,Discount,Profit
+RowID,OrderID,OrderDate,ShipDate,ShipMode,CustomerID,CustomerName,CustomerType,Country,City,State,PostalCode,Region,ProductID,ProductCategory,SubCategory,ProductName,Sales,Quantity,Discount,Profit
 1,CA-2014-103278,2016-02-26,2016-03-02,First Class,CG-53283,Kate Taylor,Corporate,United States,Phoenix,California,39825,West,PRD-6289,Furniture,Tables,Conference Table,3021.48,9,0.5,898.98
 2,CA-2016-132098,2017-06-14,2017-06-21,First Class,CG-24855,Tom Anderson,Corporate,United States,Seattle,Arizona,26202,West,PRD-4708,Technology,Accessories,Accessories Item,4986.74,2,0.23,-952.67
 3,CA-2015-118289,2016-05-06,2016-05-08,Standard Class,CG-73113,Jane Doe,Corporate,United States,Phoenix,Arizona,27814,West,PRD-7043,Furniture,Chairs,Executive Chair,4600.8,2,0.14,410.2
@@ -21,12 +21,12 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 20,CA-2016-145082,2016-11-01,2016-11-13,Second Class,CG-92515,Tom Anderson,Corporate,United States,Dallas,Georgia,40254,South,PRD-4418,Office Supplies,Binders,Presentation Binder,4056.43,2,0.33,427.62
 21,CA-2016-105695,2016-07-25,2016-08-06,Second Class,CG-77193,Chris Wilson,Consumer,United States,Boston,Connecticut,16927,East,PRD-6108,Technology,Machines,Machines Item,4549.24,1,0.29,798.96
 22,CA-2017-170284,2015-05-09,2015-05-17,First Class,CG-15136,Mike Johnson,Corporate,United States,Chicago,Kansas,33474,Central,PRD-3523,Technology,Accessories,Accessories Item,3541.11,3,0.2,-622.04
-23,CA-2014-149615,2015-03-17,2015-03-23,Second Class,CG-85008,Mike Johnson,Corporate,United States,Seattle,Oregon,30019,West,PRD-4584,Technology,Phones,iPhone,4196.92,10,0.0,-765.21
+23,CA-2014-149615,2015-03-17,2015-03-23,Second Class,CG-85008,Mike Johnson,Corporate,United States,Seattle,Oregon,30019,West,PRD-4584,Technology,Phones,iPhone,4196.92,10,0,-765.21
 24,CA-2014-172357,2017-04-09,2017-04-11,First Class,CG-29249,Amy Martinez,Consumer,United States,Nashville,Kentucky,22626,South,PRD-8412,Office Supplies,Storage,Storage Item,502.91,1,0.11,188.86
 25,CA-2016-182397,2015-12-24,2015-12-29,Standard Class,CG-17328,Tom Anderson,Corporate,United States,Kansas City,Michigan,71082,Central,PRD-4079,Technology,Computers,HP Desktop,2604.02,9,0.11,226.68
 26,CA-2016-175674,2014-04-10,2014-04-11,Standard Class,CG-31802,Sarah Williams,Consumer,United States,Baltimore,Maine,74258,East,PRD-7931,Furniture,Bookcases,Bookcases Item,3320.93,8,0.41,-218.38
 27,CA-2015-192349,2014-04-14,2014-04-27,Second Class,CG-43850,Amy Martinez,Corporate,United States,Houston,Kentucky,80848,South,PRD-2672,Furniture,Bookcases,Bookcases Item,1609.56,2,0.12,-315.62
-28,CA-2014-106006,2015-07-31,2015-08-12,Second Class,CG-33597,Chris Wilson,Consumer,United States,Kansas City,Illinois,25615,Central,PRD-2755,Furniture,Furnishings,Furnishings Item,2641.41,9,0.0,822.34
+28,CA-2014-106006,2015-07-31,2015-08-12,Second Class,CG-33597,Chris Wilson,Consumer,United States,Kansas City,Illinois,25615,Central,PRD-2755,Furniture,Furnishings,Furnishings Item,2641.41,9,0,822.34
 29,CA-2015-137930,2016-10-10,2016-10-12,Standard Class,CG-77717,Kate Taylor,Home Office,United States,Seattle,Nevada,59327,West,PRD-1271,Technology,Phones,iPhone,2879.68,3,0.02,174.36
 30,CA-2014-130512,2017-05-08,2017-05-09,First Class,CG-63143,Sarah Williams,Corporate,United States,Los Angeles,Nevada,14306,West,PRD-1468,Office Supplies,Paper,Cardstock,2664.31,8,0.04,91.66
 31,CA-2014-149823,2017-09-01,2017-09-15,Standard Class,CG-88558,Tom Anderson,Consumer,United States,Philadelphia,Massachusetts,31514,East,PRD-8416,Office Supplies,Labels,Labels Item,1976.98,5,0.4,654.66
@@ -45,7 +45,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 44,CA-2015-104207,2014-04-03,2014-04-09,First Class,CG-38752,Chris Wilson,Corporate,United States,Chicago,Iowa,54249,Central,PRD-5361,Furniture,Chairs,Executive Chair,3052.22,3,0.27,-489.17
 45,CA-2016-152581,2016-03-31,2016-04-09,Second Class,CG-63840,Lisa Davis,Consumer,United States,Hartford,Connecticut,52744,East,PRD-2655,Furniture,Chairs,Ergonomic Chair,1536.43,1,0.28,179.28
 46,CA-2016-108675,2014-04-15,2014-04-22,Second Class,CG-88753,Lisa Davis,Consumer,United States,Kansas City,Kansas,84455,Central,PRD-7628,Office Supplies,Paper,Specialty Paper,4961.51,5,0.39,829.77
-47,CA-2015-174341,2017-03-13,2017-03-21,Same Day,CG-28705,Sarah Williams,Consumer,United States,Los Angeles,Colorado,71564,West,PRD-2659,Office Supplies,Storage,Storage Item,3856.0,10,0.43,-125.13
+47,CA-2015-174341,2017-03-13,2017-03-21,Same Day,CG-28705,Sarah Williams,Consumer,United States,Los Angeles,Colorado,71564,West,PRD-2659,Office Supplies,Storage,Storage Item,3856,10,0.43,-125.13
 48,CA-2016-127869,2017-02-24,2017-02-28,First Class,CG-86368,Lisa Davis,Consumer,United States,Kansas City,Iowa,84757,Central,PRD-9112,Furniture,Bookcases,Bookcases Item,3856.51,6,0.46,-93.25
 49,CA-2017-151856,2015-02-03,2015-02-16,First Class,CG-33839,Lisa Davis,Home Office,United States,Phoenix,Colorado,22809,West,PRD-6695,Furniture,Tables,Conference Table,3497.52,7,0.19,573.31
 50,CA-2017-118726,2016-01-13,2016-01-20,Second Class,CG-91685,Kate Taylor,Home Office,United States,San Francisco,Arizona,54035,West,PRD-5718,Technology,Machines,Machines Item,2642.48,2,0.36,831.59
@@ -139,13 +139,13 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 138,CA-2015-107665,2015-01-26,2015-02-06,Standard Class,CG-80268,Lisa Davis,Consumer,United States,Houston,Georgia,44500,South,PRD-7409,Technology,Machines,Machines Item,4116.16,10,0.19,1633.94
 139,CA-2014-198038,2014-02-08,2014-02-11,Standard Class,CG-65517,Lisa Davis,Consumer,United States,Houston,Kentucky,67117,South,PRD-7830,Office Supplies,Binders,Presentation Binder,4421.29,9,0.17,-256.86
 140,CA-2016-107492,2016-06-22,2016-07-01,Second Class,CG-84012,Lisa Davis,Corporate,United States,Baltimore,Maine,29826,East,PRD-5643,Office Supplies,Paper,Copy Paper,4751.54,1,0.37,-366.18
-141,CA-2014-176569,2015-10-05,2015-10-08,Second Class,CG-57925,David Brown,Consumer,United States,San Francisco,Arizona,29480,West,PRD-7380,Office Supplies,Binders,Sheet Protectors,2778.2,5,0.0,-138.7
+141,CA-2014-176569,2015-10-05,2015-10-08,Second Class,CG-57925,David Brown,Consumer,United States,San Francisco,Arizona,29480,West,PRD-7380,Office Supplies,Binders,Sheet Protectors,2778.2,5,0,-138.7
 142,CA-2017-165909,2016-05-07,2016-05-15,First Class,CG-90200,Sarah Williams,Corporate,United States,Detroit,Indiana,14700,Central,PRD-1558,Furniture,Bookcases,Bookcases Item,2494.86,3,0.16,-346.86
 143,CA-2015-107455,2014-11-07,2014-11-12,Standard Class,CG-46118,Tom Anderson,Home Office,United States,San Francisco,Colorado,71228,West,PRD-1698,Technology,Accessories,Accessories Item,644.3,6,0.23,52.99
 144,CA-2014-124356,2016-04-25,2016-04-28,Same Day,CG-99208,David Brown,Consumer,United States,Denver,Arizona,15346,West,PRD-8509,Office Supplies,Paper,Cardstock,4977.84,4,0.07,-672.16
 145,CA-2014-177992,2017-11-15,2017-11-18,Standard Class,CG-62095,John Smith,Corporate,United States,Phoenix,Colorado,73596,West,PRD-6861,Office Supplies,Binders,3-Ring Binder,2350.1,8,0.05,-270.11
 146,CA-2014-188501,2015-02-22,2015-02-28,First Class,CG-36698,David Brown,Consumer,United States,Los Angeles,Nevada,29405,West,PRD-9602,Technology,Computers,HP Desktop,555.63,4,0.26,43.3
-147,CA-2015-152923,2016-04-20,2016-05-04,Same Day,CG-64162,Chris Wilson,Consumer,United States,Chicago,Iowa,36703,Central,PRD-2028,Office Supplies,Labels,Labels Item,1150.94,4,0.38,316.0
+147,CA-2015-152923,2016-04-20,2016-05-04,Same Day,CG-64162,Chris Wilson,Consumer,United States,Chicago,Iowa,36703,Central,PRD-2028,Office Supplies,Labels,Labels Item,1150.94,4,0.38,316
 148,CA-2014-174668,2016-10-24,2016-11-01,Same Day,CG-82365,John Smith,Home Office,United States,Miami,Arkansas,76681,South,PRD-6558,Furniture,Tables,Training Table,4167.14,8,0.3,834.95
 149,CA-2015-175880,2017-06-06,2017-06-16,Same Day,CG-83080,Tom Anderson,Home Office,United States,Nashville,Kentucky,37839,South,PRD-5963,Office Supplies,Paper,Cardstock,930.55,8,0.24,-91.02
 150,CA-2014-181183,2016-08-23,2016-08-24,First Class,CG-73238,David Brown,Home Office,United States,Milwaukee,Michigan,33667,Central,PRD-8925,Office Supplies,Binders,Sheet Protectors,3815.08,8,0.28,-335.77
@@ -184,7 +184,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 183,CA-2016-117146,2015-08-15,2015-08-20,Second Class,CG-88675,Kate Taylor,Consumer,United States,Seattle,Oregon,54739,West,PRD-2225,Furniture,Tables,Training Table,2788.7,8,0.05,618.23
 184,CA-2016-121178,2017-12-14,2017-12-17,Standard Class,CG-67065,Mike Johnson,Consumer,United States,New York,Delaware,20252,East,PRD-9192,Technology,Computers,Apple MacBook,725.38,10,0.06,91.95
 185,CA-2017-172309,2015-03-01,2015-03-14,Same Day,CG-21552,Lisa Davis,Corporate,United States,Dallas,Alabama,80041,South,PRD-1928,Office Supplies,Storage,Storage Item,4821.24,4,0.49,877.42
-186,CA-2017-173519,2017-11-14,2017-11-22,Second Class,CG-18399,Jane Doe,Home Office,United States,Kansas City,Illinois,25293,Central,PRD-8716,Technology,Phones,Google Pixel,293.0,3,0.38,12.21
+186,CA-2017-173519,2017-11-14,2017-11-22,Second Class,CG-18399,Jane Doe,Home Office,United States,Kansas City,Illinois,25293,Central,PRD-8716,Technology,Phones,Google Pixel,293,3,0.38,12.21
 187,CA-2014-114663,2017-12-14,2017-12-24,Second Class,CG-44483,Tom Anderson,Home Office,United States,Kansas City,Indiana,70314,Central,PRD-6538,Office Supplies,Binders,3-Ring Binder,3426.97,8,0.16,1220.9
 188,CA-2014-190573,2016-09-28,2016-10-10,Second Class,CG-39067,Tom Anderson,Consumer,United States,Denver,Oregon,49688,West,PRD-4285,Office Supplies,Pens,Pens Item,2055.52,10,0.06,-264.35
 189,CA-2015-171511,2015-10-12,2015-10-25,Second Class,CG-58606,Jane Doe,Consumer,United States,Houston,Georgia,21486,South,PRD-4346,Office Supplies,Binders,3-Ring Binder,2676.03,9,0.29,232.8
@@ -192,7 +192,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 191,CA-2015-156333,2015-12-16,2015-12-24,Standard Class,CG-89826,Lisa Davis,Corporate,United States,Detroit,Illinois,13514,Central,PRD-2194,Furniture,Furnishings,Furnishings Item,857.88,3,0.04,271.56
 192,CA-2015-105482,2017-02-21,2017-03-02,Same Day,CG-14948,Mike Johnson,Corporate,United States,New York,Maryland,95162,East,PRD-2159,Technology,Phones,Samsung Galaxy,4664.67,4,0.02,456.57
 193,CA-2016-147795,2015-07-15,2015-07-24,Standard Class,CG-60374,John Smith,Home Office,United States,Hartford,Maryland,35023,East,PRD-2320,Office Supplies,Labels,Labels Item,1858.16,10,0.16,632.12
-194,CA-2014-146898,2015-08-13,2015-08-15,Same Day,CG-62513,Lisa Davis,Home Office,United States,Kansas City,Iowa,29420,Central,PRD-3121,Technology,Accessories,Accessories Item,726.0,9,0.38,80.56
+194,CA-2014-146898,2015-08-13,2015-08-15,Same Day,CG-62513,Lisa Davis,Home Office,United States,Kansas City,Iowa,29420,Central,PRD-3121,Technology,Accessories,Accessories Item,726,9,0.38,80.56
 195,CA-2015-189399,2014-09-07,2014-09-17,Second Class,CG-90473,Chris Wilson,Corporate,United States,Los Angeles,Nevada,25264,West,PRD-1583,Office Supplies,Binders,3-Ring Binder,527.93,5,0.38,150.23
 196,CA-2015-187416,2017-03-20,2017-03-22,Second Class,CG-96006,Chris Wilson,Corporate,United States,Baltimore,Delaware,73576,East,PRD-4690,Office Supplies,Labels,Labels Item,1175.97,8,0.46,371.68
 197,CA-2014-146357,2017-10-17,2017-10-22,First Class,CG-78289,David Brown,Consumer,United States,Denver,Arizona,86706,West,PRD-8069,Technology,Machines,Machines Item,1912.25,2,0.04,-364.71
@@ -211,9 +211,9 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 210,CA-2016-129831,2015-06-10,2015-06-14,Second Class,CG-35525,Kate Taylor,Corporate,United States,Philadelphia,Massachusetts,88918,East,PRD-3076,Furniture,Chairs,Executive Chair,1419.52,5,0.17,378.12
 211,CA-2015-103101,2016-09-08,2016-09-15,Second Class,CG-14405,Kate Taylor,Consumer,United States,Seattle,California,61166,West,PRD-1716,Office Supplies,Paper,Cardstock,3084.08,8,0.37,380.71
 212,CA-2015-152227,2015-03-15,2015-03-17,Standard Class,CG-88579,Sarah Williams,Corporate,United States,Denver,Colorado,31237,West,PRD-5001,Office Supplies,Pens,Pens Item,2253.86,6,0.07,154.1
-213,CA-2016-136517,2015-02-18,2015-03-02,Standard Class,CG-76918,Kate Taylor,Consumer,United States,Boston,Maine,97432,East,PRD-7517,Office Supplies,Paper,Specialty Paper,3742.87,5,0.05,-513.0
+213,CA-2016-136517,2015-02-18,2015-03-02,Standard Class,CG-76918,Kate Taylor,Consumer,United States,Boston,Maine,97432,East,PRD-7517,Office Supplies,Paper,Specialty Paper,3742.87,5,0.05,-513
 214,CA-2014-136585,2017-01-08,2017-01-22,Standard Class,CG-77608,Sarah Williams,Home Office,United States,San Francisco,California,36146,West,PRD-2258,Office Supplies,Binders,Sheet Protectors,3417.58,9,0.47,-140.31
-215,CA-2016-184080,2015-07-10,2015-07-21,First Class,CG-40365,Sarah Williams,Corporate,United States,Baltimore,Massachusetts,23225,East,PRD-9907,Furniture,Bookcases,Bookcases Item,3066.92,10,0.0,434.46
+215,CA-2016-184080,2015-07-10,2015-07-21,First Class,CG-40365,Sarah Williams,Corporate,United States,Baltimore,Massachusetts,23225,East,PRD-9907,Furniture,Bookcases,Bookcases Item,3066.92,10,0,434.46
 216,CA-2017-189065,2017-02-25,2017-03-10,First Class,CG-90634,John Smith,Home Office,United States,Seattle,Nevada,40765,West,PRD-6848,Furniture,Furnishings,Furnishings Item,1732.28,6,0.45,414.87
 217,CA-2016-103617,2017-11-26,2017-11-30,Same Day,CG-32214,Lisa Davis,Consumer,United States,Boston,Massachusetts,12376,East,PRD-5959,Furniture,Furnishings,Furnishings Item,4940.01,5,0.02,561.69
 218,CA-2014-134237,2015-07-11,2015-07-16,First Class,CG-98345,Jane Doe,Corporate,United States,Houston,Florida,98726,South,PRD-5795,Office Supplies,Labels,Labels Item,2280.37,8,0.4,597.58
@@ -254,12 +254,12 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 253,CA-2015-188184,2014-07-03,2014-07-13,Second Class,CG-32942,Chris Wilson,Home Office,United States,Indianapolis,Illinois,44046,Central,PRD-8867,Office Supplies,Binders,Presentation Binder,981.06,9,0.21,129.62
 254,CA-2016-129444,2017-08-28,2017-09-03,Same Day,CG-63363,Lisa Davis,Home Office,United States,Atlanta,Alabama,95322,South,PRD-1959,Technology,Computers,HP Desktop,4369.29,7,0.29,-700.79
 255,CA-2015-119313,2017-03-21,2017-03-30,Same Day,CG-76353,Chris Wilson,Consumer,United States,Indianapolis,Kansas,85030,Central,PRD-6145,Technology,Phones,Samsung Galaxy,3300.04,5,0.13,-493.66
-256,CA-2014-106057,2015-04-21,2015-04-26,First Class,CG-23954,Kate Taylor,Home Office,United States,Indianapolis,Kansas,40945,Central,PRD-3945,Furniture,Furnishings,Furnishings Item,3098.19,5,0.31,25.0
+256,CA-2014-106057,2015-04-21,2015-04-26,First Class,CG-23954,Kate Taylor,Home Office,United States,Indianapolis,Kansas,40945,Central,PRD-3945,Furniture,Furnishings,Furnishings Item,3098.19,5,0.31,25
 257,CA-2015-162277,2016-12-31,2017-01-10,Standard Class,CG-83220,Kate Taylor,Consumer,United States,Philadelphia,Maine,47294,East,PRD-5252,Office Supplies,Pens,Pens Item,4502.77,10,0.44,790.86
 258,CA-2014-159692,2014-03-18,2014-03-27,Second Class,CG-19487,Kate Taylor,Home Office,United States,Hartford,Maryland,42457,East,PRD-3858,Office Supplies,Paper,Copy Paper,2745.55,7,0.35,286.97
 259,CA-2017-182544,2014-12-25,2014-12-28,Standard Class,CG-75951,Tom Anderson,Corporate,United States,Milwaukee,Iowa,86332,Central,PRD-2875,Furniture,Chairs,Executive Chair,3822.24,4,0.13,1442.74
 260,CA-2015-194155,2016-05-05,2016-05-11,First Class,CG-48568,Tom Anderson,Home Office,United States,Baltimore,Maine,22843,East,PRD-9302,Technology,Phones,iPhone,2046.96,10,0.3,513.18
-261,CA-2017-164799,2014-12-27,2015-01-08,Same Day,CG-54560,John Smith,Consumer,United States,Baltimore,Maryland,20740,East,PRD-6199,Office Supplies,Labels,Labels Item,3223.56,3,0.0,-575.47
+261,CA-2017-164799,2014-12-27,2015-01-08,Same Day,CG-54560,John Smith,Consumer,United States,Baltimore,Maryland,20740,East,PRD-6199,Office Supplies,Labels,Labels Item,3223.56,3,0,-575.47
 262,CA-2017-131979,2014-03-16,2014-03-21,Second Class,CG-25336,Tom Anderson,Home Office,United States,Kansas City,Illinois,27047,Central,PRD-5244,Furniture,Tables,Conference Table,1075.43,5,0.06,207.45
 263,CA-2015-185990,2016-03-24,2016-03-29,Standard Class,CG-77277,Jane Doe,Corporate,United States,Denver,California,20233,West,PRD-6789,Office Supplies,Binders,Sheet Protectors,715.24,4,0.3,-103.71
 264,CA-2014-198430,2016-10-11,2016-10-21,Second Class,CG-43776,Amy Martinez,Corporate,United States,Dallas,Kentucky,87101,South,PRD-4845,Technology,Phones,Google Pixel,552.16,6,0.37,195.57
@@ -278,7 +278,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 277,CA-2015-183579,2017-01-17,2017-01-31,Same Day,CG-86916,David Brown,Consumer,United States,Miami,Florida,33996,South,PRD-1534,Office Supplies,Labels,Labels Item,2220.47,10,0.48,514.36
 278,CA-2016-168327,2016-12-09,2016-12-20,Standard Class,CG-13584,Amy Martinez,Corporate,United States,Los Angeles,Arizona,81766,West,PRD-2285,Technology,Computers,HP Desktop,3472.91,6,0.14,688.38
 279,CA-2017-182149,2016-10-08,2016-10-11,Standard Class,CG-73172,Chris Wilson,Home Office,United States,Atlanta,Alabama,64732,South,PRD-9249,Furniture,Tables,Computer Table,1935.99,3,0.06,148.77
-280,CA-2015-135992,2014-10-02,2014-10-14,Second Class,CG-25239,David Brown,Home Office,United States,Seattle,Oregon,84155,West,PRD-9830,Technology,Accessories,Accessories Item,3338.3,8,0.0,555.02
+280,CA-2015-135992,2014-10-02,2014-10-14,Second Class,CG-25239,David Brown,Home Office,United States,Seattle,Oregon,84155,West,PRD-9830,Technology,Accessories,Accessories Item,3338.3,8,0,555.02
 281,CA-2017-110155,2016-10-29,2016-11-12,First Class,CG-43792,David Brown,Consumer,United States,Denver,Colorado,72289,West,PRD-1842,Technology,Phones,Google Pixel,1373.87,6,0.11,131.18
 282,CA-2016-130735,2016-08-16,2016-08-19,Same Day,CG-18854,Amy Martinez,Corporate,United States,Hartford,Delaware,93422,East,PRD-9592,Technology,Accessories,Accessories Item,3732.4,4,0.06,467.24
 283,CA-2016-144020,2015-07-13,2015-07-17,Same Day,CG-60157,Mike Johnson,Consumer,United States,Denver,Nevada,29527,West,PRD-6192,Technology,Accessories,Accessories Item,2821.19,7,0.35,886.46
@@ -304,7 +304,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 303,CA-2014-150968,2016-11-21,2016-12-02,Standard Class,CG-33394,John Smith,Corporate,United States,Seattle,Arizona,28672,West,PRD-9672,Furniture,Tables,Computer Table,273.24,8,0.24,-49.75
 304,CA-2016-187670,2015-11-03,2015-11-16,Same Day,CG-72463,Mike Johnson,Consumer,United States,Seattle,Colorado,59219,West,PRD-6805,Office Supplies,Storage,Storage Item,4264.48,8,0.14,1436.4
 305,CA-2017-194919,2014-06-27,2014-07-10,Second Class,CG-51139,Amy Martinez,Consumer,United States,Detroit,Illinois,41407,Central,PRD-4955,Furniture,Furnishings,Furnishings Item,1573.34,9,0.02,25.51
-306,CA-2015-161261,2016-03-31,2016-04-02,Second Class,CG-56338,Kate Taylor,Home Office,United States,Hartford,Maryland,76115,East,PRD-2950,Technology,Machines,Machines Item,4510.0,10,0.0,1789.04
+306,CA-2015-161261,2016-03-31,2016-04-02,Second Class,CG-56338,Kate Taylor,Home Office,United States,Hartford,Maryland,76115,East,PRD-2950,Technology,Machines,Machines Item,4510,10,0,1789.04
 307,CA-2015-181560,2017-10-02,2017-10-09,Standard Class,CG-38647,Sarah Williams,Consumer,United States,Seattle,Arizona,17947,West,PRD-2765,Office Supplies,Pens,Pens Item,1023.01,5,0.23,29.22
 308,CA-2014-151645,2014-07-15,2014-07-24,Second Class,CG-85197,Amy Martinez,Home Office,United States,Nashville,Georgia,63356,South,PRD-6815,Technology,Phones,iPhone,761.51,9,0.03,130.77
 309,CA-2014-111003,2015-01-14,2015-01-26,First Class,CG-45268,Jane Doe,Consumer,United States,Chicago,Kansas,63411,Central,PRD-8368,Office Supplies,Storage,Storage Item,1072.93,10,0.44,226.78
@@ -344,7 +344,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 343,CA-2016-101658,2017-08-01,2017-08-07,Same Day,CG-33969,Mike Johnson,Corporate,United States,Indianapolis,Indiana,84698,Central,PRD-9540,Office Supplies,Binders,Sheet Protectors,4655.4,2,0.14,-15.23
 344,CA-2017-164251,2015-08-28,2015-09-06,First Class,CG-76995,Sarah Williams,Consumer,United States,Philadelphia,Massachusetts,35146,East,PRD-1583,Office Supplies,Paper,Specialty Paper,2928.61,6,0.33,350.92
 345,CA-2014-156822,2016-01-23,2016-02-02,First Class,CG-46735,John Smith,Consumer,United States,Milwaukee,Michigan,43150,Central,PRD-3242,Technology,Phones,iPhone,917.35,10,0.4,2.51
-346,CA-2016-183307,2017-06-12,2017-06-15,Same Day,CG-62150,Kate Taylor,Home Office,United States,Denver,Arizona,94012,West,PRD-4607,Technology,Accessories,Accessories Item,4471.0,5,0.37,1759.91
+346,CA-2016-183307,2017-06-12,2017-06-15,Same Day,CG-62150,Kate Taylor,Home Office,United States,Denver,Arizona,94012,West,PRD-4607,Technology,Accessories,Accessories Item,4471,5,0.37,1759.91
 347,CA-2017-192708,2015-03-29,2015-04-08,Same Day,CG-39110,David Brown,Corporate,United States,Kansas City,Iowa,63330,Central,PRD-8702,Technology,Computers,HP Desktop,4851.78,5,0.01,436.57
 348,CA-2015-157080,2015-03-25,2015-04-08,Same Day,CG-85584,John Smith,Consumer,United States,Nashville,Alabama,71156,South,PRD-4065,Furniture,Furnishings,Furnishings Item,4733.55,7,0.28,1649.04
 349,CA-2015-196180,2014-10-01,2014-10-09,Standard Class,CG-26809,Amy Martinez,Corporate,United States,Phoenix,Colorado,15697,West,PRD-5630,Technology,Accessories,Accessories Item,2838.25,4,0.44,17.06
@@ -426,7 +426,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 425,CA-2016-192662,2014-10-05,2014-10-18,Standard Class,CG-84427,Tom Anderson,Home Office,United States,Seattle,California,94587,West,PRD-9113,Furniture,Furnishings,Furnishings Item,4009.27,4,0.27,872.61
 426,CA-2016-192141,2017-08-06,2017-08-08,Second Class,CG-16253,Jane Doe,Home Office,United States,Chicago,Iowa,48603,Central,PRD-3291,Furniture,Furnishings,Furnishings Item,3896.59,6,0.33,445.12
 427,CA-2017-109329,2017-08-15,2017-08-17,Second Class,CG-62219,Amy Martinez,Corporate,United States,Detroit,Iowa,22898,Central,PRD-7543,Technology,Accessories,Accessories Item,4319.82,3,0.35,591.35
-428,CA-2015-134675,2016-05-10,2016-05-16,First Class,CG-22972,Kate Taylor,Consumer,United States,Indianapolis,Illinois,15017,Central,PRD-2926,Furniture,Bookcases,Bookcases Item,58.13,2,0.0,9.48
+428,CA-2015-134675,2016-05-10,2016-05-16,First Class,CG-22972,Kate Taylor,Consumer,United States,Indianapolis,Illinois,15017,Central,PRD-2926,Furniture,Bookcases,Bookcases Item,58.13,2,0,9.48
 429,CA-2015-155723,2016-02-06,2016-02-12,First Class,CG-31409,David Brown,Consumer,United States,New York,Maine,98487,East,PRD-5441,Office Supplies,Pens,Pens Item,77.1,10,0.42,23.2
 430,CA-2014-171376,2016-02-23,2016-02-28,Second Class,CG-17869,Chris Wilson,Corporate,United States,Houston,Florida,99592,South,PRD-7088,Technology,Machines,Machines Item,4036.86,7,0.41,1028.02
 431,CA-2015-184886,2016-07-07,2016-07-10,Standard Class,CG-38241,Kate Taylor,Corporate,United States,Nashville,Arkansas,28070,South,PRD-5754,Technology,Computers,Dell Laptop,4352.1,3,0.11,-852.86
@@ -457,7 +457,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 456,CA-2016-187835,2016-02-16,2016-02-26,Standard Class,CG-80574,Kate Taylor,Home Office,United States,Los Angeles,California,26926,West,PRD-7969,Technology,Accessories,Accessories Item,4939.77,1,0.33,1659.28
 457,CA-2014-121079,2015-04-16,2015-04-27,First Class,CG-32877,Chris Wilson,Consumer,United States,Los Angeles,Nevada,60986,West,PRD-6359,Technology,Accessories,Accessories Item,3031.23,8,0.11,-97.7
 458,CA-2016-153955,2015-05-22,2015-05-30,Standard Class,CG-47304,Chris Wilson,Home Office,United States,New York,Delaware,50600,East,PRD-2921,Office Supplies,Labels,Labels Item,938.46,7,0.07,168.27
-459,CA-2017-137777,2016-08-01,2016-08-15,Same Day,CG-56544,John Smith,Consumer,United States,San Francisco,Nevada,89129,West,PRD-7181,Furniture,Furnishings,Furnishings Item,1447.44,8,0.06,347.0
+459,CA-2017-137777,2016-08-01,2016-08-15,Same Day,CG-56544,John Smith,Consumer,United States,San Francisco,Nevada,89129,West,PRD-7181,Furniture,Furnishings,Furnishings Item,1447.44,8,0.06,347
 460,CA-2017-199680,2015-12-10,2015-12-14,First Class,CG-52610,Lisa Davis,Corporate,United States,Miami,Kentucky,75860,South,PRD-6816,Office Supplies,Storage,Storage Item,3384.04,7,0.46,179.96
 461,CA-2014-159614,2014-11-14,2014-11-16,Standard Class,CG-98236,Lisa Davis,Home Office,United States,San Francisco,Colorado,10975,West,PRD-6193,Office Supplies,Labels,Labels Item,4326.39,2,0.1,78.85
 462,CA-2014-141224,2015-07-19,2015-07-21,Standard Class,CG-76904,Tom Anderson,Corporate,United States,Boston,Maryland,62328,East,PRD-4504,Technology,Phones,Google Pixel,315.72,7,0.31,101.05
@@ -468,7 +468,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 467,CA-2014-124586,2016-05-08,2016-05-20,Same Day,CG-90434,David Brown,Corporate,United States,New York,Maryland,33537,East,PRD-8636,Furniture,Chairs,Task Chair,728.02,6,0.03,-12.58
 468,CA-2016-181609,2017-06-13,2017-06-20,Same Day,CG-47555,Jane Doe,Home Office,United States,Denver,Nevada,96386,West,PRD-7948,Technology,Machines,Machines Item,2714.57,5,0.45,457.76
 469,CA-2017-181973,2014-02-02,2014-02-08,Same Day,CG-70784,David Brown,Home Office,United States,Boston,Massachusetts,61583,East,PRD-7130,Furniture,Tables,Training Table,4863.89,8,0.24,-626.49
-470,CA-2017-199613,2015-05-08,2015-05-15,Standard Class,CG-92799,David Brown,Home Office,United States,Detroit,Indiana,45884,Central,PRD-8243,Furniture,Chairs,Executive Chair,3502.84,3,0.0,-526.17
+470,CA-2017-199613,2015-05-08,2015-05-15,Standard Class,CG-92799,David Brown,Home Office,United States,Detroit,Indiana,45884,Central,PRD-8243,Furniture,Chairs,Executive Chair,3502.84,3,0,-526.17
 471,CA-2014-126680,2015-02-27,2015-03-05,First Class,CG-28985,Tom Anderson,Home Office,United States,Miami,Alabama,74682,South,PRD-4193,Office Supplies,Labels,Labels Item,3517.31,3,0.19,759.42
 472,CA-2016-171987,2014-05-18,2014-05-31,Same Day,CG-31964,Tom Anderson,Consumer,United States,Los Angeles,Oregon,58330,West,PRD-6381,Furniture,Bookcases,Bookcases Item,388.14,4,0.27,151.85
 473,CA-2015-137752,2014-07-26,2014-07-29,Second Class,CG-93962,Lisa Davis,Home Office,United States,Milwaukee,Illinois,52731,Central,PRD-5157,Furniture,Bookcases,Bookcases Item,943.37,10,0.34,-174.3
@@ -521,7 +521,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 520,CA-2017-170912,2017-10-06,2017-10-20,Standard Class,CG-20911,Mike Johnson,Consumer,United States,Detroit,Indiana,89700,Central,PRD-2713,Technology,Phones,Samsung Galaxy,1770.95,10,0.29,622.57
 521,CA-2014-180931,2016-02-20,2016-03-01,First Class,CG-23622,Kate Taylor,Corporate,United States,Seattle,Oregon,34057,West,PRD-1129,Technology,Machines,Machines Item,2330.07,2,0.37,-63.5
 522,CA-2014-130771,2016-12-10,2016-12-17,First Class,CG-44400,Jane Doe,Corporate,United States,Los Angeles,Arizona,74440,West,PRD-8790,Furniture,Furnishings,Furnishings Item,2313.58,2,0.07,855.61
-523,CA-2016-129817,2015-10-15,2015-10-21,First Class,CG-91015,David Brown,Corporate,United States,Chicago,Indiana,93147,Central,PRD-2641,Office Supplies,Pens,Pens Item,4618.0,2,0.26,-730.77
+523,CA-2016-129817,2015-10-15,2015-10-21,First Class,CG-91015,David Brown,Corporate,United States,Chicago,Indiana,93147,Central,PRD-2641,Office Supplies,Pens,Pens Item,4618,2,0.26,-730.77
 524,CA-2014-156881,2017-11-27,2017-12-06,Same Day,CG-30352,Lisa Davis,Corporate,United States,New York,Delaware,22027,East,PRD-6018,Furniture,Bookcases,Bookcases Item,4233.94,5,0.27,-291.87
 525,CA-2014-199663,2016-05-02,2016-05-13,Standard Class,CG-21050,John Smith,Home Office,United States,Hartford,Massachusetts,36787,East,PRD-9958,Furniture,Furnishings,Furnishings Item,4861.66,3,0.12,1400.84
 526,CA-2014-158153,2016-04-16,2016-04-19,Standard Class,CG-95830,David Brown,Home Office,United States,Boston,Massachusetts,65868,East,PRD-8478,Furniture,Chairs,Task Chair,2323.48,9,0.06,521.71
@@ -544,7 +544,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 543,CA-2014-160981,2017-02-15,2017-02-26,First Class,CG-72410,Amy Martinez,Consumer,United States,Chicago,Kansas,26315,Central,PRD-3610,Furniture,Furnishings,Furnishings Item,927.71,9,0.11,-72.01
 544,CA-2016-188815,2016-12-21,2017-01-02,Same Day,CG-71235,Tom Anderson,Corporate,United States,San Francisco,Oregon,35457,West,PRD-7456,Office Supplies,Binders,Presentation Binder,483.28,1,0.32,63.62
 545,CA-2015-109681,2014-10-02,2014-10-11,Same Day,CG-80855,John Smith,Consumer,United States,Seattle,Colorado,76795,West,PRD-7165,Technology,Computers,HP Desktop,1962.55,7,0.26,13.75
-546,CA-2017-145293,2016-03-06,2016-03-19,Same Day,CG-45705,Amy Martinez,Corporate,United States,Los Angeles,Colorado,95315,West,PRD-7350,Office Supplies,Paper,Copy Paper,758.0,3,0.31,90.59
+546,CA-2017-145293,2016-03-06,2016-03-19,Same Day,CG-45705,Amy Martinez,Corporate,United States,Los Angeles,Colorado,95315,West,PRD-7350,Office Supplies,Paper,Copy Paper,758,3,0.31,90.59
 547,CA-2016-183746,2015-05-13,2015-05-20,Second Class,CG-81898,Tom Anderson,Consumer,United States,San Francisco,Nevada,41765,West,PRD-3187,Furniture,Bookcases,Bookcases Item,1693.2,3,0.04,440.5
 548,CA-2017-190480,2015-06-07,2015-06-14,Standard Class,CG-68306,Mike Johnson,Consumer,United States,Seattle,Arizona,92700,West,PRD-5639,Office Supplies,Pens,Pens Item,118.19,1,0.36,5.01
 549,CA-2016-159878,2015-02-21,2015-03-05,Second Class,CG-27709,Sarah Williams,Consumer,United States,Indianapolis,Indiana,89355,Central,PRD-7452,Technology,Accessories,Accessories Item,1967.24,8,0.27,440.07
@@ -631,7 +631,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 630,CA-2014-186646,2015-11-23,2015-12-05,First Class,CG-69345,Amy Martinez,Corporate,United States,Baltimore,Maryland,49674,East,PRD-5740,Furniture,Chairs,Ergonomic Chair,4125.94,8,0.23,669.08
 631,CA-2014-117275,2015-06-12,2015-06-22,First Class,CG-45669,Kate Taylor,Consumer,United States,Boston,Maryland,70774,East,PRD-7571,Furniture,Tables,Computer Table,2417.94,3,0.18,746.58
 632,CA-2014-146955,2016-09-27,2016-10-08,First Class,CG-91625,Lisa Davis,Consumer,United States,Denver,Colorado,58145,West,PRD-6767,Technology,Accessories,Accessories Item,739.14,7,0.5,110.4
-633,CA-2015-177182,2017-08-07,2017-08-09,First Class,CG-74486,David Brown,Home Office,United States,Chicago,Illinois,20831,Central,PRD-5569,Furniture,Furnishings,Furnishings Item,1371.06,1,0.39,-272.0
+633,CA-2015-177182,2017-08-07,2017-08-09,First Class,CG-74486,David Brown,Home Office,United States,Chicago,Illinois,20831,Central,PRD-5569,Furniture,Furnishings,Furnishings Item,1371.06,1,0.39,-272
 634,CA-2016-102068,2016-10-01,2016-10-09,Standard Class,CG-34613,Lisa Davis,Home Office,United States,Milwaukee,Kansas,39482,Central,PRD-2730,Office Supplies,Pens,Pens Item,1606.98,4,0.39,229.2
 635,CA-2015-134782,2016-08-01,2016-08-09,Standard Class,CG-52027,Sarah Williams,Consumer,United States,Milwaukee,Michigan,85055,Central,PRD-9229,Technology,Machines,Machines Item,4926.57,3,0.48,315.72
 636,CA-2014-116614,2014-12-11,2014-12-20,Second Class,CG-12542,Tom Anderson,Home Office,United States,Los Angeles,Colorado,87709,West,PRD-4688,Technology,Accessories,Accessories Item,3027.81,2,0.43,-311.1
@@ -708,7 +708,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 707,CA-2014-145242,2017-11-28,2017-11-29,Second Class,CG-24801,Jane Doe,Consumer,United States,Indianapolis,Indiana,39634,Central,PRD-8819,Furniture,Tables,Conference Table,3212.68,7,0.48,-464.28
 708,CA-2017-114534,2015-04-08,2015-04-14,Standard Class,CG-40928,Kate Taylor,Corporate,United States,Seattle,Nevada,49227,West,PRD-1836,Office Supplies,Binders,Sheet Protectors,1985.99,4,0.27,-160.26
 709,CA-2016-188895,2015-09-07,2015-09-11,First Class,CG-92956,Kate Taylor,Corporate,United States,Miami,Georgia,80310,South,PRD-8836,Office Supplies,Binders,3-Ring Binder,783.37,1,0.46,-26.39
-710,CA-2017-169066,2017-11-01,2017-11-06,Second Class,CG-66906,Amy Martinez,Home Office,United States,Dallas,Alabama,96019,South,PRD-2366,Furniture,Furnishings,Furnishings Item,4116.0,1,0.01,1320.06
+710,CA-2017-169066,2017-11-01,2017-11-06,Second Class,CG-66906,Amy Martinez,Home Office,United States,Dallas,Alabama,96019,South,PRD-2366,Furniture,Furnishings,Furnishings Item,4116,1,0.01,1320.06
 711,CA-2016-105952,2014-06-15,2014-06-25,Standard Class,CG-52534,Lisa Davis,Home Office,United States,San Francisco,California,56365,West,PRD-9886,Office Supplies,Paper,Copy Paper,4073.68,5,0.11,435.19
 712,CA-2015-151807,2017-08-31,2017-09-13,First Class,CG-11974,Tom Anderson,Home Office,United States,Seattle,Arizona,36013,West,PRD-8982,Technology,Computers,Apple MacBook,2248.01,1,0.05,-373.14
 713,CA-2014-101007,2017-08-23,2017-08-28,Same Day,CG-31936,Jane Doe,Consumer,United States,Indianapolis,Indiana,15276,Central,PRD-1157,Office Supplies,Labels,Labels Item,585.09,3,0.12,171.99
@@ -722,7 +722,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 721,CA-2015-165570,2014-04-25,2014-05-08,Same Day,CG-86162,Kate Taylor,Corporate,United States,Nashville,Georgia,11052,South,PRD-5510,Technology,Computers,HP Desktop,1135.34,9,0.35,-148.61
 722,CA-2016-109447,2017-07-28,2017-08-10,Same Day,CG-72294,Chris Wilson,Corporate,United States,Seattle,Nevada,46991,West,PRD-8209,Technology,Machines,Machines Item,221.55,10,0.34,8.57
 723,CA-2017-197260,2014-01-20,2014-01-24,First Class,CG-88146,Lisa Davis,Consumer,United States,Denver,Arizona,42472,West,PRD-1106,Furniture,Tables,Training Table,1102.81,5,0.17,198.48
-724,CA-2014-157176,2017-12-10,2017-12-22,Standard Class,CG-30315,Amy Martinez,Corporate,United States,New York,Massachusetts,42698,East,PRD-8708,Office Supplies,Labels,Labels Item,1171.0,4,0.14,279.93
+724,CA-2014-157176,2017-12-10,2017-12-22,Standard Class,CG-30315,Amy Martinez,Corporate,United States,New York,Massachusetts,42698,East,PRD-8708,Office Supplies,Labels,Labels Item,1171,4,0.14,279.93
 725,CA-2014-160260,2014-12-17,2014-12-26,Standard Class,CG-58679,John Smith,Corporate,United States,Houston,Alabama,42421,South,PRD-2074,Office Supplies,Paper,Copy Paper,771.63,1,0.32,-100.82
 726,CA-2014-141033,2014-06-19,2014-07-02,First Class,CG-21728,Jane Doe,Corporate,United States,Denver,California,23508,West,PRD-2549,Office Supplies,Pens,Pens Item,4353.71,2,0.5,-459.57
 727,CA-2017-175156,2016-10-20,2016-11-02,Second Class,CG-42600,Sarah Williams,Corporate,United States,Hartford,Delaware,92432,East,PRD-9824,Office Supplies,Pens,Pens Item,2507.91,3,0.15,802.63
@@ -769,7 +769,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 768,CA-2015-142143,2014-10-14,2014-10-26,First Class,CG-52425,Kate Taylor,Consumer,United States,Boston,Maine,94202,East,PRD-1379,Office Supplies,Labels,Labels Item,217.88,5,0.39,8.03
 769,CA-2017-165715,2017-11-12,2017-11-14,Second Class,CG-71393,Chris Wilson,Consumer,United States,Hartford,Delaware,25228,East,PRD-7730,Furniture,Chairs,Ergonomic Chair,4025.13,5,0.36,462.45
 770,CA-2015-108109,2014-06-10,2014-06-20,Second Class,CG-46087,Lisa Davis,Corporate,United States,Milwaukee,Iowa,58380,Central,PRD-8968,Office Supplies,Storage,Storage Item,3716.64,2,0.26,1312.56
-771,CA-2017-113566,2016-10-22,2016-10-24,First Class,CG-88470,Chris Wilson,Corporate,United States,Nashville,Alabama,44608,South,PRD-7119,Furniture,Chairs,Ergonomic Chair,4372.43,3,0.0,1381.28
+771,CA-2017-113566,2016-10-22,2016-10-24,First Class,CG-88470,Chris Wilson,Corporate,United States,Nashville,Alabama,44608,South,PRD-7119,Furniture,Chairs,Ergonomic Chair,4372.43,3,0,1381.28
 772,CA-2016-193626,2015-12-10,2015-12-19,First Class,CG-82682,Chris Wilson,Home Office,United States,Hartford,Maryland,48652,East,PRD-1525,Furniture,Furnishings,Furnishings Item,1008.71,9,0.46,147.13
 773,CA-2014-166132,2014-04-20,2014-04-23,First Class,CG-31016,Chris Wilson,Corporate,United States,Atlanta,Alabama,56593,South,PRD-9827,Technology,Machines,Machines Item,2855.33,4,0.1,-11.47
 774,CA-2015-105130,2014-07-20,2014-07-31,First Class,CG-19027,Chris Wilson,Consumer,United States,New York,Maine,43552,East,PRD-6468,Office Supplies,Pens,Pens Item,3738.89,4,0.01,-445.75
@@ -820,11 +820,11 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 819,CA-2016-150052,2016-06-29,2016-07-04,First Class,CG-36486,Tom Anderson,Corporate,United States,Phoenix,Oregon,40161,West,PRD-3580,Technology,Accessories,Accessories Item,1407.09,3,0.12,-140.97
 820,CA-2017-121241,2016-01-08,2016-01-16,Standard Class,CG-24031,David Brown,Home Office,United States,Phoenix,Arizona,65291,West,PRD-9496,Office Supplies,Paper,Copy Paper,3271.59,6,0.14,561.58
 821,CA-2015-179254,2015-07-07,2015-07-12,Second Class,CG-73618,Chris Wilson,Home Office,United States,New York,Connecticut,57409,East,PRD-2792,Furniture,Tables,Training Table,1494.37,3,0.17,98.43
-822,CA-2015-132768,2014-07-29,2014-08-12,First Class,CG-35115,Tom Anderson,Home Office,United States,Chicago,Indiana,57500,Central,PRD-4343,Furniture,Chairs,Task Chair,184.61,10,0.04,43.0
+822,CA-2015-132768,2014-07-29,2014-08-12,First Class,CG-35115,Tom Anderson,Home Office,United States,Chicago,Indiana,57500,Central,PRD-4343,Furniture,Chairs,Task Chair,184.61,10,0.04,43
 823,CA-2014-184040,2014-09-29,2014-10-01,Same Day,CG-22943,Kate Taylor,Consumer,United States,Los Angeles,California,17808,West,PRD-7114,Office Supplies,Storage,Storage Item,609.18,6,0.13,-90.63
 824,CA-2017-148655,2014-06-28,2014-06-30,Same Day,CG-14170,Lisa Davis,Corporate,United States,Miami,Florida,48626,South,PRD-6260,Office Supplies,Labels,Labels Item,717.77,10,0.02,39.99
 825,CA-2014-193244,2015-01-19,2015-01-22,Same Day,CG-84843,John Smith,Consumer,United States,Phoenix,California,65191,West,PRD-1466,Furniture,Chairs,Task Chair,2290.07,7,0.37,353.79
-826,CA-2014-137363,2016-06-01,2016-06-14,Same Day,CG-94115,John Smith,Home Office,United States,New York,Delaware,17322,East,PRD-3364,Office Supplies,Binders,Sheet Protectors,4661.91,2,0.37,221.0
+826,CA-2014-137363,2016-06-01,2016-06-14,Same Day,CG-94115,John Smith,Home Office,United States,New York,Delaware,17322,East,PRD-3364,Office Supplies,Binders,Sheet Protectors,4661.91,2,0.37,221
 827,CA-2014-121012,2016-07-08,2016-07-19,Same Day,CG-60934,Kate Taylor,Consumer,United States,New York,Connecticut,59474,East,PRD-7177,Office Supplies,Binders,Sheet Protectors,4916.58,2,0.07,-599.86
 828,CA-2016-158893,2017-02-14,2017-02-19,First Class,CG-96235,Amy Martinez,Consumer,United States,Indianapolis,Kansas,17088,Central,PRD-2640,Technology,Computers,Dell Laptop,4573.68,2,0.27,1445.31
 829,CA-2015-157340,2017-02-10,2017-02-24,Standard Class,CG-74213,Lisa Davis,Corporate,United States,Chicago,Michigan,72498,Central,PRD-4648,Furniture,Bookcases,Bookcases Item,610.42,2,0.47,72.41
@@ -854,7 +854,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 853,CA-2014-165513,2016-02-19,2016-03-04,First Class,CG-44840,John Smith,Consumer,United States,Kansas City,Michigan,15987,Central,PRD-5305,Office Supplies,Paper,Cardstock,76.21,1,0.38,11.74
 854,CA-2014-182831,2014-12-14,2014-12-22,First Class,CG-79339,Amy Martinez,Home Office,United States,Chicago,Iowa,50449,Central,PRD-2930,Technology,Accessories,Accessories Item,4488.07,10,0.19,1198.44
 855,CA-2015-194181,2014-10-12,2014-10-21,Standard Class,CG-15328,Amy Martinez,Corporate,United States,Indianapolis,Iowa,62184,Central,PRD-9429,Technology,Machines,Machines Item,3286.48,2,0.34,28.98
-856,CA-2015-138177,2015-07-05,2015-07-17,Second Class,CG-19225,Tom Anderson,Corporate,United States,Baltimore,Maine,56640,East,PRD-4052,Office Supplies,Pens,Pens Item,4797.55,1,0.04,-139.0
+856,CA-2015-138177,2015-07-05,2015-07-17,Second Class,CG-19225,Tom Anderson,Corporate,United States,Baltimore,Maine,56640,East,PRD-4052,Office Supplies,Pens,Pens Item,4797.55,1,0.04,-139
 857,CA-2017-100205,2015-09-09,2015-09-18,Standard Class,CG-49833,Amy Martinez,Home Office,United States,Philadelphia,Connecticut,63383,East,PRD-8984,Office Supplies,Pens,Pens Item,4383.12,10,0.47,1341.69
 858,CA-2016-131531,2015-07-04,2015-07-08,Standard Class,CG-20215,Kate Taylor,Corporate,United States,Detroit,Michigan,13104,Central,PRD-2581,Technology,Accessories,Accessories Item,3552.41,1,0.11,1305.38
 859,CA-2017-124551,2016-10-06,2016-10-08,Standard Class,CG-38298,Lisa Davis,Corporate,United States,Phoenix,Nevada,14903,West,PRD-9504,Technology,Machines,Machines Item,3597.17,4,0.48,-177.09
@@ -869,7 +869,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 868,CA-2015-196068,2014-06-07,2014-06-21,Second Class,CG-78969,Kate Taylor,Consumer,United States,Atlanta,Kentucky,75393,South,PRD-6798,Furniture,Tables,Computer Table,230.17,9,0.31,62.18
 869,CA-2014-176271,2016-01-10,2016-01-23,Second Class,CG-96098,David Brown,Consumer,United States,Indianapolis,Kansas,32245,Central,PRD-9692,Technology,Computers,Apple MacBook,2820.43,2,0.24,-356.55
 870,CA-2016-117486,2015-05-31,2015-06-04,Second Class,CG-42605,John Smith,Consumer,United States,Atlanta,Arkansas,46715,South,PRD-6941,Technology,Phones,Google Pixel,4286.42,10,0.38,-324.35
-871,CA-2014-146176,2015-05-21,2015-05-24,First Class,CG-84714,Amy Martinez,Home Office,United States,Atlanta,Florida,19323,South,PRD-9697,Technology,Computers,Apple MacBook,2799.13,5,0.32,794.0
+871,CA-2014-146176,2015-05-21,2015-05-24,First Class,CG-84714,Amy Martinez,Home Office,United States,Atlanta,Florida,19323,South,PRD-9697,Technology,Computers,Apple MacBook,2799.13,5,0.32,794
 872,CA-2016-184252,2017-07-04,2017-07-08,Second Class,CG-91962,Kate Taylor,Corporate,United States,Philadelphia,Maryland,72031,East,PRD-3600,Furniture,Bookcases,Bookcases Item,3517.71,3,0.07,851.32
 873,CA-2015-189742,2016-10-12,2016-10-26,Standard Class,CG-33448,Mike Johnson,Corporate,United States,Miami,Georgia,26248,South,PRD-4707,Furniture,Tables,Computer Table,3961.9,2,0.11,188.36
 874,CA-2017-191146,2017-05-01,2017-05-08,Second Class,CG-83193,Kate Taylor,Corporate,United States,Seattle,Arizona,47568,West,PRD-7947,Technology,Computers,Apple MacBook,3580.69,8,0.26,-222.32
@@ -878,7 +878,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 877,CA-2014-193853,2016-07-26,2016-08-06,Standard Class,CG-23829,Kate Taylor,Consumer,United States,Atlanta,Florida,99417,South,PRD-8807,Technology,Accessories,Accessories Item,451.2,3,0.02,165.11
 878,CA-2017-104847,2014-08-08,2014-08-19,First Class,CG-93705,John Smith,Consumer,United States,Denver,Oregon,44449,West,PRD-3230,Office Supplies,Pens,Pens Item,1842.81,9,0.12,172.1
 879,CA-2016-126422,2014-10-05,2014-10-07,Standard Class,CG-85571,David Brown,Consumer,United States,Chicago,Michigan,42088,Central,PRD-1005,Technology,Machines,Machines Item,4105.36,2,0.45,222.85
-880,CA-2014-126144,2015-09-16,2015-09-26,First Class,CG-56918,Amy Martinez,Consumer,United States,Chicago,Indiana,48097,Central,PRD-6105,Furniture,Bookcases,Bookcases Item,2727.51,8,0.0,-475.75
+880,CA-2014-126144,2015-09-16,2015-09-26,First Class,CG-56918,Amy Martinez,Consumer,United States,Chicago,Indiana,48097,Central,PRD-6105,Furniture,Bookcases,Bookcases Item,2727.51,8,0,-475.75
 881,CA-2014-141365,2014-01-14,2014-01-24,Standard Class,CG-98407,Jane Doe,Home Office,United States,Phoenix,California,62334,West,PRD-7723,Furniture,Chairs,Executive Chair,1872.6,10,0.26,-359.77
 882,CA-2016-167552,2016-03-21,2016-03-26,Second Class,CG-70125,Mike Johnson,Consumer,United States,Kansas City,Indiana,70591,Central,PRD-3625,Furniture,Tables,Training Table,4510.09,4,0.22,-638.37
 883,CA-2017-171176,2015-11-12,2015-11-26,Same Day,CG-97194,Tom Anderson,Consumer,United States,Kansas City,Iowa,71405,Central,PRD-3612,Furniture,Furnishings,Furnishings Item,3633.73,5,0.1,857.77
@@ -918,8 +918,8 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 917,CA-2017-174349,2017-04-27,2017-05-02,Standard Class,CG-62047,Mike Johnson,Home Office,United States,San Francisco,Colorado,82450,West,PRD-2618,Furniture,Bookcases,Bookcases Item,3963.47,6,0.19,-306.23
 918,CA-2014-179310,2017-01-22,2017-01-30,Second Class,CG-10025,Sarah Williams,Consumer,United States,Baltimore,Massachusetts,60012,East,PRD-1464,Office Supplies,Storage,Storage Item,4125.18,10,0.39,564.14
 919,CA-2015-189006,2015-01-04,2015-01-07,Standard Class,CG-14543,Kate Taylor,Home Office,United States,Houston,Georgia,91313,South,PRD-5153,Technology,Accessories,Accessories Item,1987.79,4,0.15,0.51
-920,CA-2017-148623,2017-10-28,2017-10-29,First Class,CG-47287,Lisa Davis,Consumer,United States,Chicago,Illinois,21749,Central,PRD-6773,Office Supplies,Pens,Pens Item,4118.98,8,0.28,1647.0
-921,CA-2016-158188,2017-01-31,2017-02-10,Second Class,CG-88087,John Smith,Corporate,United States,Kansas City,Michigan,23588,Central,PRD-8307,Furniture,Bookcases,Bookcases Item,4404.81,7,0.3,1243.0
+920,CA-2017-148623,2017-10-28,2017-10-29,First Class,CG-47287,Lisa Davis,Consumer,United States,Chicago,Illinois,21749,Central,PRD-6773,Office Supplies,Pens,Pens Item,4118.98,8,0.28,1647
+921,CA-2016-158188,2017-01-31,2017-02-10,Second Class,CG-88087,John Smith,Corporate,United States,Kansas City,Michigan,23588,Central,PRD-8307,Furniture,Bookcases,Bookcases Item,4404.81,7,0.3,1243
 922,CA-2014-175225,2014-02-25,2014-03-07,Second Class,CG-12136,David Brown,Consumer,United States,Phoenix,Oregon,23068,West,PRD-8507,Furniture,Bookcases,Bookcases Item,4952.61,7,0.3,1318.4
 923,CA-2015-169397,2016-08-03,2016-08-13,First Class,CG-77844,Jane Doe,Consumer,United States,Phoenix,Oregon,14277,West,PRD-3631,Technology,Machines,Machines Item,2724.54,2,0.36,447.31
 924,CA-2016-152171,2017-12-21,2017-12-25,Standard Class,CG-27705,John Smith,Consumer,United States,Miami,Georgia,39213,South,PRD-7575,Furniture,Bookcases,Bookcases Item,2602.65,9,0.34,-276.01
@@ -969,7 +969,7 @@ Row ID,Order ID,Order Date,Ship Date,Ship Mode,Customer ID,Customer Name,Segment
 968,CA-2016-125729,2014-04-01,2014-04-14,Standard Class,CG-85534,Tom Anderson,Home Office,United States,Baltimore,Maine,23486,East,PRD-6076,Technology,Accessories,Accessories Item,1274.64,3,0.11,-59.51
 969,CA-2016-116406,2017-02-27,2017-03-04,First Class,CG-60010,John Smith,Home Office,United States,Miami,Arkansas,73941,South,PRD-6415,Technology,Machines,Machines Item,4755.55,7,0.34,786.14
 970,CA-2016-180534,2017-08-14,2017-08-15,Standard Class,CG-20286,John Smith,Consumer,United States,Denver,Nevada,88162,West,PRD-3363,Furniture,Furnishings,Furnishings Item,2115.37,1,0.3,-374.97
-971,CA-2014-165873,2017-10-19,2017-11-01,First Class,CG-17329,Jane Doe,Home Office,United States,Nashville,Florida,24097,South,PRD-1111,Technology,Machines,Machines Item,1794.0,1,0.18,275.89
+971,CA-2014-165873,2017-10-19,2017-11-01,First Class,CG-17329,Jane Doe,Home Office,United States,Nashville,Florida,24097,South,PRD-1111,Technology,Machines,Machines Item,1794,1,0.18,275.89
 972,CA-2015-177569,2017-08-17,2017-08-25,First Class,CG-53829,John Smith,Home Office,United States,San Francisco,Nevada,84336,West,PRD-6871,Technology,Phones,Google Pixel,2020.97,6,0.12,379.84
 973,CA-2015-122439,2016-03-29,2016-04-07,Second Class,CG-55603,Chris Wilson,Consumer,United States,Atlanta,Florida,68904,South,PRD-2042,Technology,Phones,iPhone,3492.11,6,0.48,554.41
 974,CA-2016-173874,2015-11-11,2015-11-17,Same Day,CG-66925,Jane Doe,Consumer,United States,Hartford,Connecticut,43169,East,PRD-3641,Technology,Accessories,Accessories Item,1508.08,10,0.07,148.01

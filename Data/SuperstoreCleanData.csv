@@ -1,4 +1,4 @@
-rowid,orderid,orderdate,shipdate,shipmode,customerid,customername,segment,country,city,state,postalcode,region,productid,category,sub-category,productname,sales,quantity,discount,profit
+RowID,OrderID,OrderDate,ShipDate,ShipMode,CustomerID,CustomerName,CustomerType,Country,City,State,PostalCode,Region,ProductID,ProductCategory,SubCategory,ProductName,Sales,Quantity,Discount,Profit
 1,CA-2014-103278,2016-02-26,2016-03-02,First Class,CG-53283,Kate Taylor,Corporate,United States,Phoenix,California,39825,West,PRD-6289,Furniture,Tables,Conference Table,3021.48,9,0.5,898.98
 2,CA-2016-132098,2017-06-14,2017-06-21,First Class,CG-24855,Tom Anderson,Corporate,United States,Seattle,Arizona,26202,West,PRD-4708,Technology,Accessories,Accessories Item,4986.74,2,0.23,-952.67
 3,CA-2015-118289,2016-05-06,2016-05-08,Standard Class,CG-73113,Jane Doe,Corporate,United States,Phoenix,Arizona,27814,West,PRD-7043,Furniture,Chairs,Executive Chair,4600.8,2,0.14,410.2
