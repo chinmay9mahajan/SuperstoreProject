@@ -14,17 +14,17 @@ End-to-end sales analytics for the Superstore dataset, using SQL, Python, Excel,
 
 The `/python` folder contains Jupyter notebooks for data processing and analytics, including:
 
-- **DataCleaning.ipynb**
+- `DataCleaning.ipynb`
   Performs comprehensive cleaning and preprocessing of the raw Superstore dataset, including handling missing values, standardizing column names, parsing dates, and generating an analysis-ready clean dataset (`SuperstoreCleanData.csv`).
 
-- **RFMDataframe.ipynb**
+- `RFMDataframe.ipynb`
   Implements Recency, Frequency, Monetary (RFM) calculation and scoring for customer segmentation.
   Produces customer segments like "Champion," "Loyal," "At Risk," and "Regular," outputting an enriched dataset (`SuperstoreCleanDataWithSegment.csv`) used across analytics and dashboards.
 
-- **EDA.ipynb**
+- `EDA.ipynb`
   Contains exploratory data analysis scripts and visualizations: distribution plots, trend analysis, correlation matrices, and outlier detection to understand data characteristics and surface insights.
 
-- **CustomerProductAnalysis.ipynb**
+- `CustomerProductAnalysis.ipynb`
   Provides deeper analysis of customer segments and product performance, including top/bottom product identification, product profitability, ABC classification, and segment-wise revenue insights.
   Includes visualizations with matplotlib and seaborn to highlight actionable business findings.
 
