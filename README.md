@@ -12,13 +12,23 @@ End-to-end sales analytics for the Superstore dataset, using SQL, Python, Excel,
 
 ## Python
 
-The `/python` folder contains Jupyter notebooks for data processing:
+The `/python` folder contains Jupyter notebooks for data processing and analytics, including:
 
-- **DataCleaning.ipynb**:
-  Performs comprehensive cleaning and preprocessing of the raw Superstore dataset. This includes handling missing values, standardizing column names, converting date fields, and generating a clean, analysis-ready dataset (`SuperstoreCleanData.csv`) used throughout the project.
+- **DataCleaning.ipynb**
+  Performs comprehensive cleaning and preprocessing of the raw Superstore dataset, including handling missing values, standardizing column names, parsing dates, and generating an analysis-ready clean dataset (`SuperstoreCleanData.csv`).
 
-- **Customer Segmentation (RFM)**:
-  Implements Recency, Frequency, Monetary (RFM) analysis to score customers and assign segments such as "Champion," "Loyal," "At Risk," and "Regular." This segmentation drives targeted customer analytics and is integrated into Power BI dashboards. This dataset is stored as (`SuperstoreCleanDataWithSegment.csv`)
+- **RFMDataframe.ipynb**
+  Implements Recency, Frequency, Monetary (RFM) calculation and scoring for customer segmentation.
+  Produces customer segments like "Champion," "Loyal," "At Risk," and "Regular," outputting an enriched dataset (`SuperstoreCleanDataWithSegment.csv`) used across analytics and dashboards.
+
+- **EDA.ipynb**
+  Contains exploratory data analysis scripts and visualizations: distribution plots, trend analysis, correlation matrices, and outlier detection to understand data characteristics and surface insights.
+
+- **CustomerProductAnalysis.ipynb**
+  Provides deeper analysis of customer segments and product performance, including top/bottom product identification, product profitability, ABC classification, and segment-wise revenue insights.
+  Includes visualizations with matplotlib and seaborn to highlight actionable business findings.
+
+These notebooks together form the end-to-end data processing, analytics, and insight generation foundation that feeds your SQL scripts, Excel reports, and Power BI dashboards.
 
 
 ## SQL Scripts
