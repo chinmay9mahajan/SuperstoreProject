@@ -12,7 +12,7 @@ End-to-end sales analytics for the Superstore dataset, using SQL, Python, Excel,
 
 ## Python
 
-The `/python` folder contains Jupyter notebooks for data processing and analytics, including:
+The `/Python` folder contains Jupyter notebooks for data processing and analytics, including:
 
 - `DataCleaning.ipynb`
   Performs comprehensive cleaning and preprocessing of the raw Superstore dataset, including handling missing values, standardizing column names, parsing dates, and generating an analysis-ready clean dataset (`SuperstoreCleanData.csv`).
@@ -33,13 +33,15 @@ These notebooks together form the end-to-end data processing, analytics, and ins
 
 ## SQL Scripts
 
-The `/sql` folder contains:
+The `/SQL` folder contains:
 - `01_database_setup.sql`: Creates schema, loads data
 - `02_data_exploration.sql`: Data profiling and quality checks
 - `03_business_analysis.sql` & `04_advanced_analytics.sql`: Metrics, RFM, ABC, cohort and time series analysis
 - `05_powerbi_data_prep.sql`: Creates views for Power BI dashboarding
 
 ## Power BI Dashboards
+
+The dashboards are in `/PowerBI` folder
 
 - `ExecutiveDashboard.pbix`: High-level KPIs and summary visuals
 - `SalesPerformanceDeepDive.pbix`: Detailed sales trends by product, region, segment
@@ -48,10 +50,12 @@ The `/sql` folder contains:
 Both connect to your cleaned sales data and/or SQL-prepared views for flexible, business-ready analysis.
 
 ## How to Use
-1. Place raw Kaggle CSV into `data/SuperstoreData.csv`.
-2. Run `python/DataCleaning.ipynb` to produce cleaned data.
-3. Execute `.sql` scripts sequentially for database setup and analysis.
-4. Use `SuperstoreCleanData.csv` or the prepared data views as sources in Excel and Power BI.
+1. Place raw Kaggle CSV into `Data/SuperstoreData.csv`.
+2. Run `Python/DataCleaning.ipynb` to produce cleaned data.
+3. Execute `/SQL` scripts sequentially for database setup and analysis.
+4. Run `Python/RFMDataframe.ipynb` to get the additional customers segments.
+5. The output is saved in `Data/SuperstoreCleanDataWithSegment.csv`.
+6. Use `SuperstoreCleanDataWithSegment.csv` or the prepared data views as sources in Excel and Power BI.
 
 ## Tools Used so far
 SQL (MySQL), Python (pandas), Power BI.
