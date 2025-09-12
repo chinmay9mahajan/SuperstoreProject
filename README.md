@@ -52,7 +52,7 @@ In this project, I carried out an end-to-end analysis of the **Superstore datase
 
 ![Sales Treemap](PowerBI/Screenshots/Picture04.jpg)  
 ![Growth Trends](PowerBI/Screenshots/Picture06.jpg)
-![Sales Distribution](PowerBI/Screenshots/Picture08.jpg)
+![Sales Distribution](PowerBI/Screenshots/Picture09.jpg)
 
 ---
 
