@@ -1,0 +1,37 @@
+{
+  "name": "Professional Corporate Theme",
+  "dataColors": [
+    "#2F5597",
+    "#4472C4",
+    "#ED7D31",
+    "#70AD47",
+    "#FFC000",
+    "#5B9BD5",
+    "#A5A5A5",
+    "#264478"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#2F2F2F",
+  "tableAccent": "#2F5597",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 14,
+            "color": { "solid": { "color": "#2F2F2F" } },
+            "bold": true
+          }
+        ],
+        "labels": [
+          {
+            "fontFamily": "Segoe UI",
+            "fontSize": 12,
+            "color": { "solid": { "color": "#444444" } }
+          }
+        ]
+      }
+    }
+  }
+}
