@@ -50,9 +50,9 @@ In this project, I carried out an end-to-end analysis of the **Superstore datase
 - State-level sales/profitability (map view)  
 - Customer segment breakdown (RFM)  
 
-![Sales Treemap](PowerBI/Screenshots/Picture03.jpg)  
-![Growth Trends](PowerBI/Screenshots/Picture04.jpg)
-![Sales Distribution](PowerBI/Screenshots/Picture06.jpg)
+![Sales Treemap](PowerBI/Screenshots/Picture04.jpg)  
+![Growth Trends](PowerBI/Screenshots/Picture06.jpg)
+![Sales Distribution](PowerBI/Screenshots/Picture08.jpg)
 
 ---
 
