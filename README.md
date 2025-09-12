@@ -1,51 +1,82 @@
 # Superstore Sales Analytics Portfolio Project  
 
-### Introduction  
-Retail data, like the ebb and flow of tides, carries patterns that reveal more than simple transactions. Each purchase reflects customer behavior, regional demand, and underlying profitability drivers. In this project, I carried out an end-to-end analysis of the **Superstore dataset**, applying SQL, Python, and Power BI to uncover the forces shaping sales performance and to suggest actionable business improvements.  
+## Introduction  
+Retail data reflects more than simple transactions — it captures **customer behavior, regional demand, and profitability dynamics**.  
+In this project, I carried out an end-to-end analysis of the **Superstore dataset**, applying SQL, Python, and Power BI to uncover the forces shaping sales performance and to suggest actionable business improvements.  
 
 ---
 
-### Workflow and Scope  
-The analytics workflow followed a structured path:  
-1. **Data cleaning and preparation** to ensure accuracy and consistency.  
-2. **Database setup and profiling** with SQL for efficient storage and querying.  
-3. **Exploratory and advanced analysis** using both statistical methods and segmentation techniques.  
-4. **Interactive dashboards** in Power BI for dynamic exploration and stakeholder communication.  
-
-The goal was not only to measure performance but also to identify opportunities for stronger profitability and customer engagement.  
-
----
-
-### Key Findings and Insights  
-The results of the analysis can be summarized as follows:  
-
-- **Revenue Trends.** Between 2014 and 2017, revenue increased by approximately 20%, with clear seasonal peaks in the fourth quarter.  
-- **Category Profitability.** The *Furniture* category, despite high sales, displayed the lowest margins (~5%), primarily due to excessive discounting.  
-- **Geographic Performance.** California, New York, and Texas together generated more than 40% of total revenue. However, states such as Illinois and Florida, despite high sales volumes, showed weak profitability.  
-- **Customer Behavior.** RFM segmentation revealed that about 40% of customers are “At Risk,” signaling strong potential for retention-focused strategies.  
-- **Logistics Efficiency.** Same-Day shipping was found to increase costs and reduce profit margins, whereas Standard shipping emerged as the most cost-efficient method.  
+## At a Glance  
+- **Dataset:** ~10k+ orders, 2014–2017 (Kaggle Superstore dataset)  
+- **Tools:** Python (pandas), SQL (MySQL), Power BI, Excel  
+- **Scope:** Data cleaning → SQL DB setup → Advanced analytics (RFM, Cohort, ABC) → BI dashboards  
+- **Highlights:**  
+  - Revenue grew ~20% between 2014–2017, with Q4 seasonality  
+  - Furniture: high sales, but **lowest margins (~5%)** due to discounts  
+  - ~40% of customers are “At Risk” per RFM segmentation  
+  - Same-Day shipping drives costs up; Standard shipping is most profitable  
 
 ---
 
-### Business Recommendations  
-From these findings, several practical recommendations emerge:  
-
-1. **Discount Optimization.** Reducing discounts in the Furniture category could uplift margins by an estimated 3–5% annually.  
-2. **Customer Retention.** Targeted re-engagement campaigns should be directed at “At Risk” customers, while upselling bundles to “Loyal” and “Champion” segments can enhance lifetime value.  
-3. **Regional Strategy.** Marketing resources should be concentrated in top-performing states, while pricing and margin strategies are refined for underperforming regions.  
-4. **Shipping Policy.** Incentivizing Standard shipping will reduce logistics costs and improve profitability.  
-
----
-
-### Tools and Structure  
-The project integrated multiple tools, each contributing a distinct role:  
-
-- **Python** for data cleaning, preprocessing, and RFM segmentation.  
-- **SQL (MySQL)** for database setup, KPI analysis, and advanced queries such as cohort studies and year-over-year comparisons.  
-- **Power BI** for executive dashboards and detailed sales, customer, and regional views.  
-- **Excel** for initial exploration, pivot tables, and quick summarization.  
+## Key Findings & Insights  
+- **Revenue Trends:** Between 2014 and 2017, revenue rose ~20%, with clear Q4 seasonal peaks.  
+- **Category Profitability:** Furniture, while high in sales, showed lowest margins (~5%) due to aggressive discounting.  
+- **Geographic Performance:** CA, NY, TX drove >40% of revenue; IL and FL had high sales but weak profitability.  
+- **Customer Behavior:** RFM segmentation flagged ~40% of customers as “At Risk,” highlighting retention opportunities.  
+- **Logistics Efficiency:** Same-Day shipping increased costs and reduced margins, while Standard shipping was most efficient.  
 
 ---
 
-### Conclusion  
-In summary, this project demonstrates how structured analytics—when supported by robust tools—can translate raw sales data into meaningful insights and practical strategies. The patterns identified in revenue, profitability, and customer behavior highlight the potential for targeted interventions that not only sustain growth but also optimize efficiency.  
+## Business Recommendations  
+1. **Discount Optimization:** Reduce Furniture discounts → potential **3–5% margin uplift (~$250K/year)**.  
+2. **Customer Retention:** Launch re-engagement campaigns for “At Risk” customers; upsell bundles to “Loyal” and “Champion” customers.  
+3. **Regional Strategy:** Double down on top states; refine pricing/margin strategies for underperformers.  
+4. **Shipping Policy:** Incentivize Standard shipping to improve logistics efficiency.  
+
+---
+
+## Dashboards  
+
+### Executive Dashboard  
+- KPIs: Revenue, Profit, AOV, Customer Count  
+- Trends: Revenue & Profit over time  
+- Profitability by Region & Category  
+
+![Executive Dashboard](powerbi/screenshots/executive_dashboard.png)
+
+### Sales Deep Dive Dashboard  
+- Sales by product category & subcategory  
+- State-level sales/profitability (map view)  
+- Customer segment breakdown (RFM)  
+
+![Sales Deep Dive](powerbi/screenshots/sales_deepdive.png)  
+
+👉 [Click here for **interactive live dashboard**](#) *(add Power BI Service link)*  
+
+---
+
+## Tools & Workflow  
+- **Python**: Data cleaning, preprocessing, RFM segmentation.  
+- **SQL (MySQL)**: Schema setup, KPI analysis, advanced queries (cohort retention, ABC, YOY comparisons).  
+- **Power BI**: Executive dashboards, sales deep-dives, geographic insights.  
+- **Excel**: Early exploration, pivot tables, and quick summaries.  
+
+Workflow followed:  
+1. Data cleaning & preparation  
+2. SQL database setup & profiling  
+3. Exploratory + advanced analytics (RFM, cohort, ABC)  
+4. Dashboarding for stakeholder insights  
+
+---
+
+## Conclusion  
+This project demonstrates how **structured analytics pipelines** — from raw data to BI dashboards — can transform sales transactions into **actionable business strategies**.  
+
+The patterns uncovered in revenue, profitability, and customer behavior show clear paths to:  
+- Improve margins  
+- Boost retention  
+- Optimize operations  
+
+---
+
+## Repository Structure  
