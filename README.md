@@ -42,16 +42,17 @@ In this project, I carried out an end-to-end analysis of the **Superstore datase
 - Trends: Revenue & Profit over time  
 - Profitability by Region & Category  
 
-![Executive Dashboard](powerbi/screenshots/executive_dashboard.png)
+![Executive KPI Cards](PowerBI/Screenshots/Picture01.jpg)
+![Monthly Trends](PowerBI/Screenshots/Picture02.jpg)
 
 ### Sales Deep Dive Dashboard  
 - Sales by product category & subcategory  
 - State-level sales/profitability (map view)  
 - Customer segment breakdown (RFM)  
 
-![Sales Deep Dive](powerbi/screenshots/sales_deepdive.png)  
-
-👉 [Click here for **interactive live dashboard**](#) *(add Power BI Service link)*  
+![Sales Treemap](PowerBI/Screenshots/Picture03.jpg)  
+![Growth Trends](PowerBI/Screenshots/Picture04.jpg)
+![Sales Distribution](PowerBI/Screenshots/Picture06.jpg)
 
 ---
 
