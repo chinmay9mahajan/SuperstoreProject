@@ -79,4 +79,49 @@ The patterns uncovered in revenue, profitability, and customer behavior show cle
 
 ---
 
-## Repository Structure  
+# Technical Appendix  
+
+## Repository Structure 
+
+SuperstoreProject/
+│
+├── README.md
+├── Requirements.txt 
+│
+├── Data/
+│ ├── SuperstoreData.csv
+│ ├── SuperstoreCleanData.csv
+│ └── SuperstoreCleanDataWithSegment.csv
+│
+├── Python/ 
+│ ├── DataCleaning.ipynb
+│ └── RFMDataframe.ipynb
+│
+├── SQL/
+│ ├── 1DatabaseSetup.sql
+│ ├── 2DataExploration.sql
+│ ├── 3BusinessAnalysis.sql
+│ └── 4AdvancedAnalytics.sql
+│ └── 5PowerBIDataPreparation.sql
+│
+├── PoerBI/
+│ ├── ExecutiveDashboard.pbix
+│ ├── SalesPerformanceDeepDive.pbix
+│ └── Screenshots/
+│ ├── executive_dashboard.png
+│ └── sales_deepdive.png
+│
+└── Excel/
+└── Dashboard.xlsx
+
+
+
+---
+
+## How to Reproduce  
+1. Place raw dataset in `/Data/SuperstoreData.csv`.  
+2. Run `Python/DataCleaning.ipynb` → generates `SuperstoreCleanData.csv`.  
+3. Execute SQL scripts in order (01 → 05) on MySQL.  
+4. Open `.pbix` dashboards in Power BI; connect to cleaned dataset or SQL views.  
+
+---
